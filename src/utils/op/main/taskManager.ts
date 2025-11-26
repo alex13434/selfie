@@ -32,9 +32,9 @@ export const checkButtonCQ = async (ctx: MyContext) => {
       await ctx.editMessageText(subText, {
         reply_markup: tasksKeyboard(unsubscribedTasks, providerName),
       });
-      await ctx.answerCallbackQuery('Не все задания выполнены =(');
     } catch (error) {
-      await ctx.answerCallbackQuery();
+    } finally {
+      await ctx.answerCallbackQuery('Не все задания выполнены =(');
     }
     return;
   }
