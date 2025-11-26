@@ -53,10 +53,10 @@ export const persons = [
       'https://i.pinimg.com/736x/37/36/22/373622d8025119c51f2a608c780b412b.jpg',
   },
   {
-    name: '🕋 Машерa',
+    name: '👔 Аль Пачино',
     personIndex: 8,
     imageUrl:
-      'https://i.pinimg.com/736x/18/f7/eb/18f7ebbee8e31c20ffc481ce5f9d57f9.jpg',
+      'https://i.pinimg.com/736x/fb/d0/8e/fbd08e4fd4b4ab0f2ac8514715d27c69.jpg',
   },
   {
     name: '👀 Элджей',

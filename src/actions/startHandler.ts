@@ -23,7 +23,7 @@ export const startHandler = async (ctx: MyContext) => {
       });
     });
     await ctx.api.sendMediaGroup(ctx.chat.id, media);
-    await redis.set(String(ctx.chat.id), '0');
+    await redis.set(String(ctx.chat.id), '1');
   }
   const { generations } = await User.findOne({ telegram_id: ctx.from.id });
   await ctx.api.sendMessage(ctx.chat.id, mainText(generations));
