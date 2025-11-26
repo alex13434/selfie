@@ -206,8 +206,9 @@ export const persons = [
 // generations : cost
 export const items: Record<number, number[]> = {
   0: [1, 5],
-  1: [5, 20],
-  2: [10, 30],
+  1: [10, 40],
+  2: [50, 150],
+  3: [200, 500],
 };
 
 export const getGenEnding = (days: number) => {
@@ -227,7 +228,7 @@ export const donate_kb = (user_id: number) => {
   const keyboard = new InlineKeyboard();
 
   Object.entries(items).forEach(([key, [gens, cost]]) => {
-    const text = `${key == '0' ? '🪄' : key == '1' ? '🦋' : '🔥'} ${gens} ${getGenEnding(gens)} • ${cost} ⭐️`;
+    const text = `${key == '0' ? '🪄' : key == '1' ? '🦋' : key == '2' ? '🎉' : '🔥'} ${gens} ${getGenEnding(gens)} • ${cost} ⭐️`;
 
     keyboard.text(text, `buy_gens_${key}`).row();
   });
