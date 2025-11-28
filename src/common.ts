@@ -53,10 +53,10 @@ export const persons = [
       'https://i.pinimg.com/736x/37/36/22/373622d8025119c51f2a608c780b412b.jpg',
   },
   {
-    name: '👔 Аль Пачино',
+    name: '💔 Машера',
     personIndex: 8,
     imageUrl:
-      'https://i.pinimg.com/736x/fb/d0/8e/fbd08e4fd4b4ab0f2ac8514715d27c69.jpg',
+      'https://i.pinimg.com/736x/18/f7/eb/18f7ebbee8e31c20ffc481ce5f9d57f9.jpg',
   },
   {
     name: '👀 Элджей',
@@ -143,10 +143,10 @@ export const persons = [
       'https://i.pinimg.com/736x/f1/a6/ac/f1a6aca3e55964b812c8e07b43834621.jpg',
   },
   {
-    name: '🎧 Оксимирон',
+    name: '🎧 Макан',
     personIndex: 23,
     imageUrl:
-      'https://i.pinimg.com/736x/a8/63/78/a863789869e58dbad87ead027209827f.jpg',
+      'https://i.pinimg.com/736x/84/40/71/8440713d87c84ca7b743451626b6c316.jpg',
   },
   {
     name: '🔞 Ева Элфи',
@@ -195,12 +195,6 @@ export const persons = [
     personIndex: 31,
     imageUrl:
       'https://i.pinimg.com/736x/4a/d2/ad/4ad2ad3bb1ebbe4c38efb98a7e9e2bfd.jpg',
-  },
-  {
-    name: '🔪 Патрик Бейтман',
-    personIndex: 32,
-    imageUrl:
-      'https://i.pinimg.com/1200x/d3/c8/47/d3c847d0adb2664223cef8902cdfc8ea.jpg',
   },
 ];
 // generations : cost
